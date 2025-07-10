@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-gradient-to-b from-[#F8E8EE] to-[#fffff] shadow w-full">
+  <header class="fixed top-0 left-0 w-full z-50 bg-gradient-to-b from-[#F8E8EE] to-[#fffff] shadow w-full">
     <div class="w-full px-4 py-4 flex justify-between items-center">
       <router-link
         to="/"
@@ -10,6 +10,9 @@
       <nav class="space-x-4">
         <RouterLink to="/"
           ><span class="text-[#F2BED1]">Inicio </span></RouterLink
+        >
+        <RouterLink to="/tasks"
+          ><span class="text-[#F2BED1]">Tasks</span></RouterLink
         >
         <RouterLink to="/faq"
           ><span class="text-[#F2BED1]">FAQ</span></RouterLink
